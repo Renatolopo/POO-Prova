@@ -10,4 +10,7 @@ public class ControleArtigo {
     public Artigo buscarArtigo(String titulo){
         return ArtigoDAO.buscarArtigo(titulo);
     }
+    public void listArtigos(){
+        ArtigoDAO.listArtigos();
+    }
 }

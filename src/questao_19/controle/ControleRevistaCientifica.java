@@ -10,4 +10,7 @@ public class ControleRevistaCientifica {
     public RevistaCientifica buscarRevista(String titulo){
         return RevistaCientificaDAO.buscarRevista(titulo);
     }
+    public void listRevistas(){
+        RevistaCientificaDAO.listRevistas();
+    }
 }

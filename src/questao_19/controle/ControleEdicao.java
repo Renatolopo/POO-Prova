@@ -10,4 +10,7 @@ public class ControleEdicao {
     public Edicao buscarEdicao(int numEdicao){
         return EdicaoDAO.buscaEdicao(numEdicao);
     }
+    public void listEdicoes(){
+        EdicaoDAO.listEdicoes();
+    }
 }

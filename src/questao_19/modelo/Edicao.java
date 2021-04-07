@@ -24,4 +24,8 @@ public class Edicao {
     public String getData() {
         return data;
     }
+
+    public RevistaCientifica getRevistaCientifica() {
+        return revistaCientifica;
+    }
 }

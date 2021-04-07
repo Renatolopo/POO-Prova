@@ -18,4 +18,8 @@ public class Artigo {
     public String getTitulo() {
         return titulo;
     }
+
+    public Edicao getEdicao() {
+        return edicao;
+    }
 }
